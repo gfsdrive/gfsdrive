@@ -1,0 +1,541 @@
+{
+  "seo": {
+    "homeTitle": "GFS Drive Service | Motorista particular agendado em Vila Velha e Vitória",
+    "homeDescription": "Transporte particular com hora marcada em carro elétrico 0 km em Vila Velha e Vitória, ES. Simule o valor e agende pelo WhatsApp.",
+    "seniorTitle": "Melhor Idade com Cuidado | GFS Drive Service",
+    "seniorDescription": "Atendimento com paciência e pontualidade para idosos em consultas, exames, mercado e visitas em Vila Velha e Vitória.",
+    "qrTitle": "Agende sua próxima viagem | GFS Drive Service",
+    "notFoundTitle": "Página não encontrada | GFS Drive Service"
+  },
+  "media": {
+    "carroOrlaAlt": "Carro elétrico 0 km estacionado na orla de Vila Velha com o mar e a Terceira Ponte ao fundo durante a manhã",
+    "carroOrlaFallback": "Carro elétrico na orla de Vila Velha com vista para o mar",
+    "melhorIdadeAlt": "Motorista particular segurando a porta para auxiliar o embarque confortável em carro elétrico na rua arborizada",
+    "melhorIdadeFallback": "Embarque assistido na porta de casa",
+    "interiorAlt": "Visão a partir do banco de trás com amplo espaço, teto panorâmico, tela multimídia e cooler com gelo",
+    "interiorFallback": "Interior espaçoso com cooler com gelo e multimídia",
+    "portaMalasAlt": "Porta-malas aberto de SUV elétrico com sacolas de compras e cadeira de rodas dobrável acomodada",
+    "portaMalasFallback": "Porta-malas amplo para compras, malas ou cadeira de rodas",
+    "pedraAzulAlt": "Carro elétrico seguindo por estrada cercada de mata rumo às montanhas de Pedra Azul no fim da tarde",
+    "pedraAzulFallback": "Viagens para Domingos Martins, Pedra Azul e litoral capixaba",
+    "executivoAlt": "SUV elétrico estacionado diante da entrada iluminada de hotel em fim de tarde",
+    "executivoFallback": "Atendimento executivo e recepção com hora marcada"
+  },
+  "nav": {
+    "homeAria": "Página inicial da GFS Drive Service",
+    "servicos": "Serviços",
+    "melhorIdade": "Melhor Idade",
+    "simulador": "Simular valor",
+    "comoFunciona": "Como funciona",
+    "duvidas": "Dúvidas",
+    "agendarAgora": "Agendar agora",
+    "menuAbrir": "Abrir menu",
+    "menuFechar": "Fechar menu",
+    "menuLabel": "Menu",
+    "fecharLabel": "Fechar",
+    "tamanhoLetra": "Tamanho da letra",
+    "diminuirLetra": "Diminuir tamanho da letra",
+    "aumentarLetra": "Aumentar tamanho da letra",
+    "idiomaLabel": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "Motorista particular com hora marcada · Vila Velha e Vitória",
+    "seloEletrico": "100% elétrico",
+    "title": "Você marca o horário. A gente cuida do resto.",
+    "subtitle": "Transporte agendado em carro elétrico 0 km, com motorista que te leva, espera e traz de volta. Sem tarifa surpresa e sem cancelamento de última hora.",
+    "ctaPrimary": "Simular meu valor",
+    "ctaSecondary": "Falar no WhatsApp",
+    "selo1": "BYD Yuan Plus 0 km",
+    "selo2": "Valor combinado antes",
+    "selo3": "O carro chega antes de você descer",
+    "carAlt": "Carro elétrico BYD da GFS Drive Service",
+    "miniSim": {
+      "eyebrow": "Simulação rápida",
+      "serviceLabel": "Serviço",
+      "originLabel": "Saindo de",
+      "originPlaceholder": "Bairro ou endereço",
+      "destLabel": "Para onde",
+      "destPlaceholder": "Destino ou bairro",
+      "dateTimeLabel": "Data e saída",
+      "submitLabel": "Ver valor",
+      "mobileButton": "Simular meu valor",
+      "mobileHelper": "Sem cadastro. Resposta na hora."
+    },
+    "interactive": {
+      "lightsOn": "Faróis acesos",
+      "lightsOff": "Acender faróis",
+      "hint": "Toque nos pontos do carro para conhecer o conforto a bordo",
+      "hotspots": {
+        "electric": {
+          "label": "100% elétrico",
+          "title": "Silêncio absoluto em movimento",
+          "desc": "BYD Yuan Plus 0 km: sem barulho de motor, sem trepidação e sem cheiro de combustível."
+        },
+        "cabin": {
+          "label": "Cabine e cooler",
+          "title": "Conforto e bebida gelada a bordo",
+          "desc": "Banco traseiro espaçoso, sua música conectada na multimídia e cooler com gelo à disposição."
+        },
+        "trunk": {
+          "label": "Porta-malas",
+          "title": "Espaço amplo sem aperto",
+          "desc": "Acomoda com folga malas de viagem, compras do mercado ou cadeira de rodas dobrável."
+        }
+      }
+    }
+  },
+  "stats": {
+    "electricValue": "100",
+    "electricSuffix": "%",
+    "electricUnit": "elétrico",
+    "electricLabel": "Silencioso e sem cheiro de combustível",
+    "brandNewValue": "0",
+    "brandNewUnit": "km",
+    "brandNewLabel": "Carro novo, sem um detalhe",
+    "advanceValue": "6",
+    "advanceUnit": "h",
+    "advanceLabel": "De antecedência para garantir seu horário"
+  },
+  "blocks": {
+    "interiorTitle": "Interior premium",
+    "interiorText": "Banco de trás amplo com porta-copos, conexão multimídia para o seu celular e cooler com gelo à disposição para você levar a sua bebida.",
+    "waitingTitle": "Ida, espera e volta",
+    "waitingText": "No Compromisso Agendado, o Gil leva você até a consulta, o exame ou o jantar, permanece à disposição pelo tempo combinado e traz de volta com tranquilidade.",
+    "seniorTitle": "Melhor Idade com Cuidado",
+    "seniorText": "Embarque assistido na porta de casa, direção suave em carro silencioso, espera sem pressa e porta-malas amplo para compras ou cadeira de rodas dobrável.",
+    "seniorCta": "Isso é para mim",
+    "tripsTitle": "Passeios e Viagens",
+    "tripsText": "Motorista dedicado o dia inteiro para Domingos Martins, Pedra Azul, Venda Nova do Imigrante e praias do litoral capixaba, com hora marcada."
+  },
+  "dotNav": {
+    "label": "Navegação por seções",
+    "hero": "Apresentação",
+    "blocks": "Destaques",
+    "services": "Modalidades",
+    "simulator": "Simular valor",
+    "howItWorks": "Como funciona",
+    "faq": "Dúvidas",
+    "contact": "Contato"
+  },
+  "mobileBar": {
+    "simulate": "Simular valor",
+    "whatsapp": "WhatsApp"
+  },
+  "seniorHighlight": {
+    "eyebrow": "01 · Atendimento dedicado",
+    "title": "Para você, que merece ser levado com carinho.",
+    "text": "Consultas, exames, mercado, banco ou visita à família. O Gil busca na porta, ajuda a entrar e sair do carro, espera o tempo combinado e traz de volta em segurança.",
+    "ctaButton": "Isso é para mim",
+    "familyLink": "Estou agendando para meu pai, minha mãe ou um familiar"
+  },
+  "services": {
+    "eyebrow": "02 · Modalidades",
+    "title": "Escolha como você quer ir",
+    "subtitle": "Cinco formas de usar o GFS Drive Service em Vila Velha, Vitória e região. Todas com agendamento prévio.",
+    "idealLabel": "Ideal para",
+    "ctaSimulate": "Simular este serviço",
+    "fromPrice": "a partir de",
+    "perHourSuffix": "/h",
+    "perKmSuffix": "/km",
+    "items": {
+      "transporte_agendado": {
+        "nome": "Transporte Agendado",
+        "nomeCurto": "Transporte Agendado",
+        "descricao": "Do ponto A ao ponto B, no horário escolhido. Você agenda hoje e amanhã o carro está na sua porta.",
+        "idealPara": "Aeroporto de Vitória, rodoviária, trabalho ou compromisso pontual."
+      },
+      "compromisso": {
+        "nome": "Compromisso Agendado",
+        "nomeCurto": "Compromisso Agendado",
+        "descricao": "O motorista te leva, fica à sua disposição durante o tempo combinado e traz de volta. Sem espera na calçada na hora da saída.",
+        "idealPara": "Consultas, exames com sedação, Shopping Vitória, jantares e aniversários para brindar sem dirigir."
+      },
+      "melhor_idade": {
+        "nome": "Melhor Idade com Cuidado",
+        "nomeCurto": "Melhor Idade com Cuidado",
+        "descricao": "Ida, espera e volta pensadas para idosos e pessoas com mobilidade reduzida. Paciência, atenção e apoio completo ao embarcar.",
+        "idealPara": "Consultas, exames, mercado na Praia da Costa, farmácia, banco, igreja e visitas."
+      },
+      "corporativo": {
+        "nome": "Corporativo",
+        "nomeCurto": "Corporativo",
+        "descricao": "Motorista à disposição da sua empresa por hora, com pontualidade e discrição para reuniões e recepções.",
+        "idealPara": "Empresas de Vila Velha, Vitória e Grande Vitória."
+      },
+      "passeios_viagens": {
+        "nome": "Passeios e Viagens",
+        "nomeCurto": "Passeios e Viagens",
+        "descricao": "Passeios de até 150 km e viagens para mais longe, com o motorista à sua disposição o dia inteiro.",
+        "idealPara": "Domingos Martins, Pedra Azul, Venda Nova do Imigrante, praias do litoral e presentes especiais."
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "03 · A bordo do BYD Yuan Plus",
+    "title": "Mais que um transporte.",
+    "items": [
+      {
+        "titulo": "Silêncio de carro elétrico 0 km",
+        "texto": "Sem barulho de motor, sem cheiro de combustível e sem trepidação."
+      },
+      {
+        "titulo": "Sua música, do seu jeito",
+        "texto": "Conecte o celular na multimídia do carro e escolha o que quer ouvir."
+      },
+      {
+        "titulo": "Cooler com gelo à disposição",
+        "texto": "Traga sua bebida e ela segue gelada até o destino."
+      },
+      {
+        "titulo": "Porta-copos e espaço no banco de trás",
+        "texto": "Cabine confortável e porta-malas amplo para malas, compras ou cadeira de rodas dobrável."
+      },
+      {
+        "titulo": "Motorista que espera por você",
+        "texto": "Sem pressa e sem taxímetro correndo durante seu compromisso."
+      }
+    ],
+    "closingQuote": "Vai a um aniversário e quer brindar? Volte de carona com a gente.",
+    "trunkTitle": "Porta-malas amplo e organizado",
+    "trunkText": "Espaço folgado para bagagens, sacolas de supermercado ou cadeira de rodas dobrável."
+  },
+  "simulator": {
+    "eyebrow": "SIMULAÇÃO EM 1 MINUTO",
+    "title": "Quanto custa o seu trajeto?",
+    "subtitle": "Informe o serviço, o endereço e o horário. O valor aparece na hora, sem cadastro.",
+    "qrBanner": "Gostou da viagem? Agende sua próxima com o Gil.",
+    "stepCount": "Etapa {{step}} de 4",
+    "steps": {
+      "1": "Serviço",
+      "2": "Trajeto",
+      "3": "Data e hora",
+      "4": "Seus dados"
+    },
+    "step1Title": "Qual serviço você precisa?",
+    "step1Hint": "Toque em uma modalidade para avançar.",
+    "step1Continue": "Continuar com {{service}}",
+    "step2Title": "De onde você sai?",
+    "step2ServiceLabel": "Serviço selecionado",
+    "originLabel": "Endereço ou ponto de partida",
+    "originPlaceholder": "Ex.: Av. Champagnat, Praia da Costa, Vila Velha",
+    "originError": "Informe o endereço ou bairro de onde você vai sair.",
+    "nextDestination": "Próximo: Destino",
+    "step3Title": "Para onde você vai?",
+    "leavingFrom": "Saindo de",
+    "destinationLabel": "Endereço ou local de destino",
+    "destinationPlaceholder": "Ex.: Shopping Vitória, Aeroporto ou endereço completo",
+    "destinationError": "Informe para onde você vai.",
+    "demoTitle": "Modo de demonstração (sem chave Google Maps configurada)",
+    "demoHint": "Informe a distância aproximada de um trecho (somente ida) para simular o valor.",
+    "demoDistanceLabel": "Distância aproximada de um trecho (km)",
+    "demoDistanceError": "Informe uma distância aproximada em quilômetros para simular.",
+    "step2RouteTitle": "Qual é o seu trajeto?",
+    "step2RouteHint": "Informe o ponto de partida e o destino para calcularmos a distância.",
+    "nextDateTime": "Próximo: Data e hora",
+    "step4Title": "Qual dia e horário?",
+    "step4Hint": "Agendamentos são feitos com pelo menos 6 horas de antecedência.",
+    "dateLabel": "Data do compromisso",
+    "timeOutLabel": "Horário de saída",
+    "timeReturnLabel": "A que horas quer voltar?",
+    "timeReturnTripLabel": "Horário previsto de retorno",
+    "quickDurationLabel": "Ou escolha por quantas horas precisa do motorista:",
+    "overnightLabel": "O retorno será em outro dia (viagem com pernoite)",
+    "dateError": "Escolha a data e o horário de saída.",
+    "returnTimeError": "Informe o horário previsto de retorno.",
+    "seeEstimate": "Ver valor estimado",
+    "step5Title": "Resultado da sua simulação",
+    "calculating": "Calculando trajeto e valor estimado...",
+    "calculatingHint": "Só um instante enquanto verificamos a melhor rota.",
+    "routeError": "Não conseguimos calcular agora. Toque abaixo e o Gil te passa o valor pelo WhatsApp.",
+    "consultWhatsapp": "Consultar valor no WhatsApp",
+    "estimatedFor": "Valor estimado para {{service}}",
+    "consideredDistance": "Distância considerada",
+    "oneWayDriveTime": "Trajeto de carro (ida): cerca de {{mins}} min",
+    "bandApplied": "Faixa aplicada",
+    "confirmationNotice": "Valor estimado, sujeito à confirmação. O Gil confirma com você pelo WhatsApp em até {{hours}} hora.",
+    "confirmationNoticeShort": "Valor estimado, sujeito à confirmação. O Gil confirma com você pelo WhatsApp.",
+    "typicalUses": "Usos típicos: restaurante, supermercado, academia, consulta médica e compromissos com espera para retorno.",
+    "seeBreakdown": "Ver como calculamos",
+    "ruleLabel": "Regra aplicada",
+    "dateTimeLabel": "Data e horário",
+    "oneWayKmLabel": "Distância do trecho (ida)",
+    "roundTripKmLabel": "Distância total considerada (ida e volta)",
+    "marginNote": "(inclui +10% de deslocamentos no destino: +{{km}} km)",
+    "breakdown": {
+      "routeLine": "Trajeto ({{km}} x {{unit}})",
+      "firstHour": "Primeira hora",
+      "extraTime": "Tempo adicional ({{count}} x 30 min)",
+      "displacement": "Deslocamento até você ({{km}})",
+      "nightSurcharge": "Acréscimo noturno (25%)",
+      "totalEstimated": "Total estimado"
+    },
+    "changeSchedule": "Alterar horário",
+    "continueToBook": "Continuar para agendar",
+    "step6Title": "Seus dados para confirmar",
+    "step6Hint": "Ao tocar no botão abaixo, seu pedido vai organizado para o WhatsApp do Gil.",
+    "clientNameLabel": "Seu nome completo",
+    "clientNamePlaceholder": "Ex.: Maria das Graças",
+    "clientNameError": "Digite seu nome para que o Gil saiba quem está solicitando.",
+    "clientPhoneLabel": "Seu telefone ou WhatsApp",
+    "clientPhonePlaceholder": "(27) 99891-4687",
+    "clientPhoneError": "Digite um telefone ou WhatsApp com DDD.",
+    "bookingForOther": "Estou agendando para outra pessoa",
+    "passengerNameLabel": "Nome de quem vai viajar",
+    "passengerNamePlaceholder": "Ex.: Dona Helena (mãe)",
+    "passengerNameError": "Informe o nome de quem vai viajar com o Gil.",
+    "passengerPhoneLabel": "Telefone de quem vai viajar",
+    "passengerPhonePlaceholder": "(27) 99999-9999",
+    "passengerPhoneError": "Informe o telefone com DDD de quem vai ser levado.",
+    "notesLabel": "Observações (opcional)",
+    "notesPlaceholder": "Ex.: precisa de ajuda para entrar no carro, levo cadeira de rodas dobrável, ponto de referência...",
+    "quickNotes": [
+      "Precisa de ajuda para entrar no carro",
+      "Levo cadeira de rodas dobrável",
+      "Vou levar bebida para o cooler"
+    ],
+    "estimatedShort": "Valor estimado",
+    "sendWhatsApp": "Enviar agendamento pelo WhatsApp",
+    "backToResult": "Voltar ao resultado",
+    "copyMessage": "Copiar texto do agendamento",
+    "copiedMessage": "Texto copiado",
+    "preparedSummaryTitle": "Resumo preparado para o WhatsApp do Gil:",
+    "back": "Voltar",
+    "clear": "Limpar",
+    "clearFieldAria": "Limpar campo {{label}}",
+    "searchingAddresses": "Buscando endereços na Grande Vitória...",
+    "quickPlacesLabel": "Locais frequentes (toque para preencher):",
+    "presetsOrigin": [
+      { "label": "Praia da Costa, Vila Velha", "address": "Praia da Costa, Vila Velha - ES", "lat": -20.3404, "lng": -40.2877 },
+      { "label": "Itapuã, Vila Velha", "address": "Praia de Itapuã, Vila Velha - ES", "lat": -20.3529, "lng": -40.2896 },
+      { "label": "Jardim Camburi, Vitória", "address": "Jardim Camburi, Vitória - ES", "lat": -20.2583, "lng": -40.2683 },
+      { "label": "Praia do Canto, Vitória", "address": "Praia do Canto, Vitória - ES", "lat": -20.2966, "lng": -40.2932 }
+    ],
+    "presetsDestination": [
+      { "label": "Aeroporto de Vitória", "address": "Aeroporto de Vitória (VIX), Goiabeiras, Vitória - ES", "lat": -20.2581, "lng": -40.2864 },
+      { "label": "Hospital Santa Rita", "address": "Hospital Santa Rita de Cássia, Maruípe, Vitória - ES", "lat": -20.2974, "lng": -40.3133 },
+      { "label": "Shopping Vitória", "address": "Shopping Vitória, Enseada do Suá, Vitória - ES", "lat": -20.3125, "lng": -40.2879 },
+      { "label": "Domingos Martins", "address": "Centro, Domingos Martins - ES", "lat": -20.3633, "lng": -40.6594 },
+      { "label": "Pedra Azul", "address": "Pedra Azul, Domingos Martins - ES", "lat": -20.3997, "lng": -41.0289 }
+    ],
+    "alerts": {
+      "antecedencia": "Para garantir seu horário, agendamos com pelo menos 6 horas de antecedência. Para hoje, fale direto com o Gil.",
+      "madrugada": "Para horários de madrugada, fale direto com o Gil",
+      "tabela_indisponivel": "Valores para sábados, domingos e feriados são confirmados diretamente pelo WhatsApp com o Gil.",
+      "pernoite": "Viagens com pernoite têm orçamento personalizado.",
+      "mudanca_faixa": "Seu horário passa por mais de uma faixa de preço. Este valor é uma estimativa e o Gil confirma com você.",
+      "viagem_longa": "Viagens longas precisam de uma conferência do horário para sua segurança e conforto. O Gil vai confirmar com você.",
+      "noturno": "Inclui acréscimo de 25% após as 22h",
+      "talkToGil": "Falar direto com o Gil no WhatsApp"
+    },
+    "rules": {
+      "pernoite": "Orçamento personalizado para viagem com pernoite",
+      "madrugada": "Atendimento de madrugada combinado diretamente pelo WhatsApp",
+      "tabela_indisponivel": "Orçamento de fim de semana ou feriado confirmado pelo WhatsApp",
+      "transporte_agendado": "Transporte Agendado (somente ida: km rodado + deslocamento até você)",
+      "passeio": "Passeio (até 150 km no percurso total: apenas tempo à disposição + deslocamento)",
+      "viagem": "Viagem (acima de 150 km: quilometragem total + tempo à disposição + deslocamento)",
+      "compromisso": "Ida, espera e volta (quilometragem + primeira hora + blocos de 30 min + deslocamento)"
+    },
+    "bands": {
+      "dia_util_baixa": "Dia útil, horário tranquilo",
+      "dia_util_alta": "Dia útil, horário de pico",
+      "especial_baixa": "Fim de semana ou feriado, horário tranquilo",
+      "especial_alta": "Fim de semana ou feriado, horário de pico",
+      "nightSuffix": ", Após as 22h: acréscimo de 25%"
+    },
+    "summary": {
+      "title": "Ticket de simulação",
+      "service": "Serviço",
+      "origin": "Origem",
+      "destination": "Destino",
+      "route": "Trajeto",
+      "routePending": "A definir",
+      "schedule": "Data e horário",
+      "returnLabel": "Retorno",
+      "oneWayOnly": "Somente ida",
+      "overnight": "Outro dia (pernoite)",
+      "distanceLabel": "Distância",
+      "rateTierLabel": "Faixa de preço",
+      "estimatedTotal": "Valor estimado",
+      "pendingValue": "Informe o trajeto",
+      "continueBtn": "Continuar",
+      "expandTicket": "Ver resumo completo",
+      "collapseTicket": "Fechar resumo",
+      "disclaimer": "Valor estimado, sujeito à confirmação."
+    }
+  },
+  "calloutBanner": {
+    "text": "Já sabe para onde vai? Veja o valor agora.",
+    "cta": "Simular valor"
+  },
+  "howItWorks": {
+    "eyebrow": "05 · Passo a passo",
+    "title": "Agendar é simples assim",
+    "steps": [
+      {
+        "num": "01",
+        "titulo": "Escolha o serviço e o horário.",
+        "desc": "Pelo simulador aqui do site ou direto pelo WhatsApp."
+      },
+      {
+        "num": "02",
+        "titulo": "Receba a confirmação.",
+        "desc": "O Gil confirma o horário e o valor com você pelo WhatsApp."
+      },
+      {
+        "num": "03",
+        "titulo": "Pronto, é só aguardar.",
+        "desc": "No dia e hora marcados, o carro está na sua porta."
+      }
+    ]
+  },
+  "audience": {
+    "eyebrow": "06 · Para quem é",
+    "title": "Quem já pode contar com a gente",
+    "items": [
+      "Idosos e familiares",
+      "Pessoas com mobilidade reduzida",
+      "Quem vai fazer exame e não pode dirigir",
+      "Casais que querem curtir sem se preocupar",
+      "Empresas",
+      "Turistas na Grande Vitória"
+    ]
+  },
+  "vip": {
+    "eyebrow": "Lista preferencial",
+    "title": "Entre para o grupo VIP do GFS Drive Service",
+    "text": "Receba primeiro os horários disponíveis, condições especiais e novidades. Sem spam, só o que interessa.",
+    "cta": "Quero entrar no grupo VIP"
+  },
+  "faq": {
+    "eyebrow": "07 · Esclarecimentos",
+    "title": "Dúvidas frequentes",
+    "items": [
+      {
+        "pergunta": "Com quanta antecedência preciso agendar?",
+        "resposta": "Com pelo menos 6 horas de antecedência. O ideal é agendar no dia anterior, assim garantimos seu horário."
+      },
+      {
+        "pergunta": "O valor do simulador é o valor final?",
+        "resposta": "É uma estimativa muito próxima do real. O Gil confirma o valor final pelo WhatsApp antes do seu compromisso. Se o trajeto ou o tempo mudarem no dia, o valor pode ser ajustado."
+      },
+      {
+        "pergunta": "O motorista espera enquanto estou na consulta?",
+        "resposta": "Sim. No Compromisso Agendado e na Melhor Idade com Cuidado, o motorista fica à sua disposição pelo tempo combinado."
+      },
+      {
+        "pergunta": "Posso agendar para outra pessoa?",
+        "resposta": "Pode. Muitos filhos e netos agendam para os pais e avós. Basta informar o nome e o telefone de quem vai ser levado."
+      },
+      {
+        "pergunta": "Vocês atendem fora da Grande Vitória?",
+        "resposta": "Sim, nos Passeios e Viagens para destinos como Domingos Martins, Pedra Azul e litoral. Viagens com pernoite são orçadas à parte pelo WhatsApp."
+      },
+      {
+        "pergunta": "Posso levar minha bebida?",
+        "resposta": "Pode. O carro tem cooler com gelo à disposição."
+      },
+      {
+        "pergunta": "Como pago?",
+        "resposta": "O pagamento é combinado na confirmação do agendamento: Pix, cartão ou dinheiro."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Vila Velha · Vitória · Grande Vitória",
+    "title": "Seu próximo compromisso já pode ter motorista.",
+    "text": "Agende com antecedência e viaje com tranquilidade, pontualidade e hora marcada.",
+    "ctaPrimary": "Simular meu valor",
+    "ctaSecondary": "Falar no WhatsApp",
+    "buttonSingle": "Agendar meu transporte",
+    "disclaimerNote": "Valores estimados, sujeitos à confirmação."
+  },
+  "contact": {
+    "eyebrow": "08 · Contato direto",
+    "title": "Fale com o Gil",
+    "subtitle": "Atendimento pessoal em Vila Velha, Vitória e viagens pelo Espírito Santo.",
+    "whatsappLabel": "WhatsApp e telefone",
+    "emailLabel": "E-mail",
+    "instagramLabel": "Instagram"
+  },
+  "footer": {
+    "description": "GFS Drive Service. Motorista particular com hora marcada em Vila Velha e Vitória, ES.",
+    "area": "Atendimento em Vila Velha, Vitória, Serra, Cariacica e viagens pelo Espírito Santo.",
+    "navHeading": "Navegação",
+    "contactHeading": "Contato",
+    "disclaimer": "Os valores exibidos no simulador são estimativas e estão sujeitos à confirmação."
+  },
+  "floatingWhatsApp": {
+    "label": "Falar com o Gil no WhatsApp",
+    "simulatePill": "Simular valor",
+    "defaultMessage": "Olá, Gil! Vim pelo site da GFS Drive Service e gostaria de agendar um transporte."
+  },
+  "drawer": {
+    "title": "Simulador de valor",
+    "close": "Fechar",
+    "inlineLink": "Ir para a seção completa"
+  },
+  "seniorPage": {
+    "backHome": "Voltar para o início",
+    "videoLabel": "Vídeo de apresentação do atendimento Melhor Idade",
+    "videoCaption": "Veja como funciona o acompanhamento na porta de casa, nas compras e na volta em segurança.",
+    "videoPlaceholderText": "Espaço reservado para o vídeo curto (15 a 30 segundos) mostrando o embarque na porta, ida ao mercado e volta com as compras.",
+    "eyebrow": "Melhor Idade com Cuidado",
+    "title": "Cuidado, paciência e pontualidade para quem você ama.",
+    "text": "Sabemos que ir ao médico, ao banco ou ao mercado pode ser cansativo. Com o GFS Drive Service, você é buscado na porta de casa, recebe ajuda para entrar e sair do carro, e o motorista espera você terminar com calma. Depois, te deixa de volta em casa, em segurança.",
+    "benefitsTitle": "Como cuidamos de cada trajeto",
+    "benefits": [
+      "Busca e entrega na porta de casa",
+      "Ajuda para embarcar e desembarcar",
+      "Espera durante a consulta ou o exame",
+      "Ideal para exames com sedação, em que não se pode dirigir",
+      "Carro elétrico, silencioso e confortável",
+      "Familiar recebe aviso pelo WhatsApp no embarque e na chegada"
+    ],
+    "trunkBadge": "Espaço para compras e mobilidade",
+    "trunkText": "O carro elétrico tem entrada confortável, ar-condicionado suave e porta-malas amplo para sacolas de supermercado, andador ou cadeira de rodas dobrável.",
+    "familyTitle": "Mora longe dos seus pais? Agende por eles. Você recebe a confirmação e fica tranquilo.",
+    "familyText": "Você combina tudo com o Gil pelo WhatsApp, informa o endereço e o telefone de quem vai viajar e acompanha quando o embarque e o retorno acontecerem.",
+    "familyCta": "Simular agendamento para um familiar",
+    "callOrWhatsApp": "Ligar ou chamar no WhatsApp agora",
+    "callPhone": "Ligar por telefone: {{phone}}",
+    "simulateButton": "Simular o valor",
+    "whatsappMessage": "Olá, Gil. Gostaria de agendar um atendimento Melhor Idade com Cuidado pelo site da GFS Drive Service."
+  },
+  "qrPage": {
+    "backFullSite": "Conhecer o site completo"
+  },
+  "notFound": {
+    "eyebrow": "Erro 404",
+    "title": "Esta página não foi encontrada.",
+    "text": "O endereço acessado não existe ou foi alterado. Você pode voltar para a página inicial ou falar direto com o Gil pelo WhatsApp.",
+    "backHome": "Voltar para o início",
+    "whatsappCta": "Falar com o Gil no WhatsApp"
+  },
+  "whatsappMessages": {
+    "greeting": "Olá, Gil. Quero agendar pelo site GFS Drive Service.",
+    "service": "Serviço",
+    "dateTime": "Data e saída",
+    "returnTime": "Retorno",
+    "returnOneWay": "Somente ida",
+    "returnOvernight": "Outro dia (pernoite)",
+    "returnToBeAgreed": "A combinar",
+    "origin": "Origem",
+    "destination": "Destino",
+    "distance": "Distância estimada",
+    "estimatedValue": "Valor estimado",
+    "overnightPrice": "A combinar (viagem com pernoite)",
+    "pricePending": "A combinar",
+    "alertPrefix": "Aviso",
+    "client": "Nome",
+    "phone": "Telefone",
+    "passenger": "Passageiro",
+    "passengerSelf": "O próprio solicitante",
+    "passengerNotInformed": "Não informado",
+    "passengerNoPhone": "sem telefone",
+    "notes": "Observações",
+    "notesNone": "Nenhuma",
+    "fallbackGreeting": "Olá, Gil. Gostaria de consultar o valor pelo site GFS Drive Service.",
+    "toBeInformed": "A informar"
+  }
+}

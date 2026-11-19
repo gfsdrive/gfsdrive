@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Holgada";
+  src: url("/fonts/Holgada-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Holgada";
+  src: url("/fonts/Holgada-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Holgada";
+  src: url("/fonts/Holgada-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Holgada";
+  src: url("/fonts/Holgada-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Holgada";
+  src: url("/fonts/Holgada-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --midnight: #0D0D0D;
+  --steel: #2C3946;
+  --steel-dark: #232E39;
+  --titanium: #8B8D91;
+  --champagne: #C2A472;
+  --champagne-on-light: #725A31;
+  --ivory: #F4F2EE;
+  --white: #FFFFFF;
+  --text-on-dark: #E6E6E6;
+  --text-on-light: #0D0D0D;
+  --text-muted-on-light: #3B4249;
+  --border-light: #D5D0C6;
+  --border-dark: rgba(139, 141, 145, 0.28);
+
+  --font-brand: "Holgada", "Outfit", "Urbanist", system-ui, -apple-system, sans-serif;
+  --gfs-font-scale: 1;
+}
+
+@theme {
+  --color-midnight: var(--midnight);
+  --color-steel: var(--steel);
+  --color-steel-dark: var(--steel-dark);
+  --color-titanium: var(--titanium);
+  --color-champagne: var(--champagne);
+  --color-ivory: var(--ivory);
+
+  --font-brand: var(--font-brand);
+}
+
+html {
+  font-size: calc(16px * var(--gfs-font-scale));
+  scroll-behavior: smooth;
+  background-color: var(--midnight);
+  color: var(--text-on-dark);
+  font-family: var(--font-brand);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--midnight);
+  color: var(--text-on-dark);
+  font-family: var(--font-brand);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-brand);
+  font-weight: 500;
+  text-wrap: balance;
+}
+
+.font-brand {
+  font-family: var(--font-brand);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-variant-caps: all-small-caps;
+}
+
+.small-caps-label {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+}
+
+.gfs-btn-slide {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.gfs-btn-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateX(-101%);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: -1;
+}
+
+.gfs-btn-slide:hover::before {
+  transform: translateX(0);
+}
+
+@keyframes gfs-once-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(194, 164, 114, 0.72), 0 10px 28px rgba(0, 0, 0, 0.35);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(194, 164, 114, 0), 0 10px 28px rgba(0, 0, 0, 0.35);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(194, 164, 114, 0), 0 10px 28px rgba(0, 0, 0, 0.35);
+  }
+}
+
+.gfs-pulse-once {
+  animation: gfs-once-pulse 1.5s cubic-bezier(0.16, 1, 0.3, 1) 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .gfs-btn-slide::before {
+    transition: none;
+  }
+  .gfs-pulse-once {
+    animation: none;
+  }
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 1px solid var(--champagne);
+  outline-offset: 0px;
+}
+
+button:focus-visible,
+a:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--champagne);
+  outline-offset: 2px;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

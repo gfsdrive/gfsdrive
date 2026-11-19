@@ -1,0 +1,6 @@
+{
+  "name": "GFS Drive Service",
+  "description": "Motorista particular com hora marcada em carro elétrico BYD Yuan Plus 0 km em Vila Velha e Vitória, ES. Simule o valor e agende pelo WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

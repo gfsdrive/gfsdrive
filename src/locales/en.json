@@ -1,0 +1,541 @@
+{
+  "seo": {
+    "homeTitle": "GFS Drive Service | Private chauffeur by appointment in Vila Velha & Vitória",
+    "homeDescription": "Pre-booked private chauffeur rides in a brand-new electric SUV across Vila Velha and Vitória, Brazil. Get an instant quote and book via WhatsApp.",
+    "seniorTitle": "Senior Care Rides | GFS Drive Service",
+    "seniorDescription": "Patient, punctual door-to-door rides for seniors going to medical appointments, exams, groceries and family visits in Vila Velha and Vitória.",
+    "qrTitle": "Book your next ride | GFS Drive Service",
+    "notFoundTitle": "Page not found | GFS Drive Service"
+  },
+  "media": {
+    "carroOrlaAlt": "Brand-new electric SUV parked along the Vila Velha oceanfront with the sea and Third Bridge in the morning light",
+    "carroOrlaFallback": "Electric SUV along the Vila Velha coast",
+    "melhorIdadeAlt": "Private chauffeur holding the car door open to assist a comfortable boarding on a tree-lined street",
+    "melhorIdadeFallback": "Door-to-door assisted boarding",
+    "interiorAlt": "Rear passenger view showing spacious seating, panoramic glass roof, media display and an iced cooler ready for passengers",
+    "interiorFallback": "Spacious interior with iced cooler and media screen",
+    "portaMalasAlt": "Open electric SUV trunk with grocery bags and a folded lightweight wheelchair neatly stowed",
+    "portaMalasFallback": "Ample luggage space for bags, groceries or a folding wheelchair",
+    "pedraAzulAlt": "Electric SUV driving up a scenic Atlantic forest mountain road toward Pedra Azul in late afternoon sun",
+    "pedraAzulFallback": "Day trips to Domingos Martins, Pedra Azul and the Espírito Santo coast",
+    "executivoAlt": "Dark petrol electric SUV parked at a quiet boutique hotel limestone entrance at dusk",
+    "executivoFallback": "Executive chauffeur arrival by appointment"
+  },
+  "nav": {
+    "homeAria": "GFS Drive Service home page",
+    "servicos": "Services",
+    "melhorIdade": "Senior Care",
+    "simulador": "Get a quote",
+    "comoFunciona": "How it works",
+    "duvidas": "FAQ",
+    "agendarAgora": "Book now",
+    "menuAbrir": "Open menu",
+    "menuFechar": "Close menu",
+    "menuLabel": "Menu",
+    "fecharLabel": "Close",
+    "tamanhoLetra": "Text size",
+    "diminuirLetra": "Decrease text size",
+    "aumentarLetra": "Increase text size",
+    "idiomaLabel": "Language"
+  },
+  "hero": {
+    "eyebrow": "Private chauffeur by appointment · Vila Velha & Vitória, Brazil",
+    "seloEletrico": "100% electric",
+    "title": "You set the time. We take care of the rest.",
+    "subtitle": "Pre-booked rides in a brand-new electric car, with a driver who takes you there, waits for you and brings you back. No surge pricing, no last-minute cancellations.",
+    "ctaPrimary": "Get a quote",
+    "ctaSecondary": "Message us on WhatsApp",
+    "selo1": "Brand-new BYD Yuan Plus",
+    "selo2": "Agreed fare upfront",
+    "selo3": "The car arrives before you step out",
+    "carAlt": "GFS Drive Service BYD electric car",
+    "miniSim": {
+      "eyebrow": "Quick quote",
+      "serviceLabel": "Service",
+      "originLabel": "Picking up from",
+      "originPlaceholder": "Neighborhood or address",
+      "destLabel": "Going to",
+      "destPlaceholder": "Destination or area",
+      "dateTimeLabel": "Date & pickup",
+      "submitLabel": "See fare",
+      "mobileButton": "Get a quote",
+      "mobileHelper": "No sign-up. Instant estimate."
+    },
+    "interactive": {
+      "lightsOn": "Lights on",
+      "lightsOff": "Turn lights on",
+      "hint": "Tap any point on the car to explore on-board comfort",
+      "hotspots": {
+        "electric": {
+          "label": "All-electric",
+          "title": "Whisper-quiet electric drive",
+          "desc": "Brand-new BYD Yuan Plus: zero engine noise, zero vibration and zero fuel odor."
+        },
+        "cabin": {
+          "label": "Cabin & cooler",
+          "title": "Rear comfort and iced cooler",
+          "desc": "Generous rear legroom, your own phone paired to the display and an iced cooler on board."
+        },
+        "trunk": {
+          "label": "Luggage space",
+          "title": "Spacious trunk capacity",
+          "desc": "Comfortably fits travel suitcases, grocery bags or a folding wheelchair."
+        }
+      }
+    }
+  },
+  "stats": {
+    "electricValue": "100",
+    "electricSuffix": "%",
+    "electricUnit": "electric",
+    "electricLabel": "Electric · quiet, no fuel smell",
+    "brandNewValue": "0",
+    "brandNewUnit": "km",
+    "brandNewLabel": "Brand-new car",
+    "advanceValue": "6",
+    "advanceUnit": "h",
+    "advanceLabel": "Advance booking"
+  },
+  "blocks": {
+    "interiorTitle": "Premium interior",
+    "interiorText": "Spacious rear seating with cupholders, wireless media pairing for your own playlist and an iced cooler ready for your preferred drinks.",
+    "waitingTitle": "Drop-off, wait and return",
+    "waitingText": "With Round Trip with Wait Time, Gil drives you to your appointment, exam or dinner, waits as long as agreed and brings you safely back home.",
+    "seniorTitle": "Senior Care Rides",
+    "seniorText": "Patient door-to-door boarding help, whisper-quiet electric comfort, unhurried waiting and generous trunk space for groceries or a folding wheelchair.",
+    "seniorCta": "This is for me",
+    "tripsTitle": "Day Trips & Travel",
+    "tripsText": "Dedicated full-day chauffeur to Domingos Martins, Pedra Azul, Venda Nova do Imigrante and beaches across Espírito Santo, strictly by appointment."
+  },
+  "dotNav": {
+    "label": "Section navigation",
+    "hero": "Overview",
+    "blocks": "Highlights",
+    "services": "Services",
+    "simulator": "Quote",
+    "howItWorks": "How it works",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "mobileBar": {
+    "simulate": "Get a quote",
+    "whatsapp": "WhatsApp"
+  },
+  "seniorHighlight": {
+    "eyebrow": "01 · Dedicated assistance",
+    "title": "For those who deserve to be driven with care.",
+    "text": "Medical appointments, lab exams, groceries, banking or family visits. Gil picks you up at the door, helps you in and out of the car, waits as long as agreed and drives you safely back home.",
+    "ctaButton": "This is for me",
+    "familyLink": "I am booking for my parent or a family member"
+  },
+  "services": {
+    "eyebrow": "02 · Services",
+    "title": "Choose how you want to travel",
+    "subtitle": "Five ways to book GFS Drive Service across Vila Velha, Vitória and Espírito Santo. All rides by prior appointment.",
+    "idealLabel": "Best suited for",
+    "ctaSimulate": "Quote this service",
+    "fromPrice": "from",
+    "perHourSuffix": "/h",
+    "perKmSuffix": "/km",
+    "items": {
+      "transporte_agendado": {
+        "nome": "Scheduled Ride",
+        "nomeCurto": "Scheduled Ride",
+        "descricao": "Direct point-to-point transport at your chosen hour. Book today and your car is waiting at your door tomorrow.",
+        "idealPara": "Vitória Airport (VIX), bus terminal, office commutes and timed engagements."
+      },
+      "compromisso": {
+        "nome": "Round Trip with Wait Time",
+        "nomeCurto": "Round Trip with Wait Time",
+        "descricao": "Your driver takes you there, stays at your disposal for the agreed window and brings you home. No waiting curbside when you finish.",
+        "idealPara": "Doctor visits, sedated exams, Shopping Vitória, dinners and celebrations where you prefer not to drive."
+      },
+      "melhor_idade": {
+        "nome": "Senior Care Rides",
+        "nomeCurto": "Senior Care Rides",
+        "descricao": "Door-to-door round trips tailored for older adults and passengers with reduced mobility. Patience, attentiveness and full boarding help.",
+        "idealPara": "Clinics, lab exams, Praia da Costa groceries, pharmacies, banking, church and family visits."
+      },
+      "corporativo": {
+        "nome": "Corporate",
+        "nomeCurto": "Corporate",
+        "descricao": "Chauffeur by the hour for your company, with punctual and discreet service for meetings and executive arrivals.",
+        "idealPara": "Businesses across Vila Velha, Vitória and Greater Vitória."
+      },
+      "passeios_viagens": {
+        "nome": "Day Trips & Travel",
+        "nomeCurto": "Day Trips & Travel",
+        "descricao": "Day excursions up to 150 km or longer regional journeys with your chauffeur dedicated to you all day.",
+        "idealPara": "Domingos Martins, Pedra Azul, Venda Nova do Imigrante, coastal beaches and thoughtful family gifts."
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "03 · Inside the BYD Yuan Plus",
+    "title": "More than a ride.",
+    "items": [
+      {
+        "titulo": "Quiet all-electric cabin",
+        "texto": "Zero engine noise, zero fuel odor and a remarkably smooth ride."
+      },
+      {
+        "titulo": "Your music on board",
+        "texto": "Pair your phone with the car display and choose your own soundtrack."
+      },
+      {
+        "titulo": "Iced cooler on board",
+        "texto": "Bring your favorite drinks and keep them chilled until arrival."
+      },
+      {
+        "titulo": "Rear comfort and generous trunk",
+        "texto": "Cupholders, legroom and luggage space for suitcases, groceries or a folding wheelchair."
+      },
+      {
+        "titulo": "A driver who waits for you",
+        "texto": "No rush and no ticking meter while you attend your appointment."
+      }
+    ],
+    "closingQuote": "Going to a celebration and want to raise a glass? Leave the return drive to us.",
+    "trunkTitle": "Spacious, spotless luggage compartment",
+    "trunkText": "Comfortable room for travel suitcases, grocery bags or a folding wheelchair."
+  },
+  "simulator": {
+    "eyebrow": "QUOTE IN 1 MINUTE",
+    "title": "How much is your ride?",
+    "subtitle": "Choose the service, address and time. See your price instantly, no sign-up.",
+    "qrBanner": "Enjoyed your ride? Book your next trip with Gil.",
+    "stepCount": "Step {{step}} of 4",
+    "steps": {
+      "1": "Service",
+      "2": "Route",
+      "3": "Date & time",
+      "4": "Your details"
+    },
+    "step1Title": "Which service do you need?",
+    "step1Hint": "Select an option below to continue.",
+    "step1Continue": "Continue with {{service}}",
+    "step2Title": "Where should we pick you up?",
+    "step2ServiceLabel": "Selected service",
+    "originLabel": "Pickup address or landmark",
+    "originPlaceholder": "e.g., Praia da Costa, Vila Velha or full street address",
+    "originError": "Please enter your pickup address or neighborhood.",
+    "nextDestination": "Next: Destination",
+    "step3Title": "Where are you heading?",
+    "leavingFrom": "Picking up from",
+    "destinationLabel": "Destination address or venue",
+    "destinationPlaceholder": "e.g., Vitória Airport, Shopping Vitória or full address",
+    "destinationError": "Please enter your destination.",
+    "demoTitle": "Demo mode (no Google Maps key active)",
+    "demoHint": "Enter an approximate one-way distance in kilometers to test the fare calculation.",
+    "demoDistanceLabel": "Approximate one-way distance (km)",
+    "demoDistanceError": "Please enter an approximate distance in kilometers.",
+    "step2RouteTitle": "What is your route?",
+    "step2RouteHint": "Enter your pickup point and destination so we can calculate the distance.",
+    "nextDateTime": "Next: Date & time",
+    "step4Title": "Which date and time?",
+    "step4Hint": "Bookings require at least 6 hours' advance notice.",
+    "dateLabel": "Appointment date",
+    "timeOutLabel": "Pickup time",
+    "timeReturnLabel": "What time would you like to return?",
+    "timeReturnTripLabel": "Estimated return time",
+    "quickDurationLabel": "Or select how many hours you need the chauffeur:",
+    "overnightLabel": "Return is on another day (overnight trip)",
+    "dateError": "Please select a date and pickup time.",
+    "returnTimeError": "Please enter your expected return time.",
+    "seeEstimate": "Calculate estimated fare",
+    "step5Title": "Your fare estimate",
+    "calculating": "Calculating route and estimated fare...",
+    "calculatingHint": "Just a moment while we check the driving distance.",
+    "routeError": "We could not calculate the route right now. Tap below and Gil will send your quote on WhatsApp.",
+    "consultWhatsapp": "Request quote on WhatsApp",
+    "estimatedFor": "Estimated fare for {{service}}",
+    "consideredDistance": "Distance calculated",
+    "oneWayDriveTime": "One-way driving time: approx. {{mins}} min",
+    "bandApplied": "Rate tier",
+    "confirmationNotice": "Prices shown are estimates and subject to confirmation. Gil confirms with you on WhatsApp within {{hours}} hour.",
+    "confirmationNoticeShort": "Estimated fare, subject to confirmation. Gil confirms directly with you on WhatsApp.",
+    "typicalUses": "Typical uses: restaurants, grocery shopping, gym, doctor appointments and round trips with wait time.",
+    "seeBreakdown": "See how we calculated this",
+    "ruleLabel": "Applied rule",
+    "dateTimeLabel": "Date & schedule",
+    "oneWayKmLabel": "One-way distance",
+    "roundTripKmLabel": "Total round-trip distance",
+    "marginNote": "(includes +10% local driving margin at destination: +{{km}} km)",
+    "breakdown": {
+      "routeLine": "Distance ({{km}} x {{unit}})",
+      "firstHour": "First hour",
+      "extraTime": "Additional time ({{count}} x 30 min)",
+      "displacement": "Pickup dispatch fee ({{km}})",
+      "nightSurcharge": "Night surcharge (25%)",
+      "totalEstimated": "Estimated total"
+    },
+    "changeSchedule": "Change schedule",
+    "continueToBook": "Continue to book",
+    "step6Title": "Your contact details",
+    "step6Hint": "When you tap the button below, your booking summary opens ready to send on WhatsApp.",
+    "clientNameLabel": "Your full name",
+    "clientNamePlaceholder": "e.g., Ana Paula Souza",
+    "clientNameError": "Please enter your name so Gil knows who is booking.",
+    "clientPhoneLabel": "Your phone or WhatsApp",
+    "clientPhonePlaceholder": "+55 (27) 99891-4687",
+    "clientPhoneError": "Please enter a valid phone or WhatsApp number.",
+    "bookingForOther": "I am booking for someone else",
+    "passengerNameLabel": "Passenger name",
+    "passengerNamePlaceholder": "e.g., Helena Souza (mother)",
+    "passengerNameError": "Please enter the passenger's name.",
+    "passengerPhoneLabel": "Passenger phone number",
+    "passengerPhonePlaceholder": "+55 (27) 99999-9999",
+    "passengerPhoneError": "Please enter the passenger's phone number.",
+    "notesLabel": "Notes (optional)",
+    "notesPlaceholder": "e.g., boarding assistance needed, folding wheelchair, landmark...",
+    "quickNotes": [
+      "Needs assistance entering the car",
+      "Bringing a folding wheelchair",
+      "Bringing drinks for the cooler"
+    ],
+    "estimatedShort": "Estimated fare",
+    "sendWhatsApp": "Send booking via WhatsApp",
+    "backToResult": "Back to estimate",
+    "copyMessage": "Copy booking summary",
+    "copiedMessage": "Summary copied",
+    "preparedSummaryTitle": "Summary prepared for Gil on WhatsApp:",
+    "back": "Back",
+    "clear": "Clear",
+    "clearFieldAria": "Clear {{label}}",
+    "searchingAddresses": "Searching Greater Vitória addresses...",
+    "quickPlacesLabel": "Popular locations (tap to fill):",
+    "presetsOrigin": [
+      { "label": "Praia da Costa, Vila Velha", "address": "Praia da Costa, Vila Velha - ES", "lat": -20.3404, "lng": -40.2877 },
+      { "label": "Itapuã, Vila Velha", "address": "Praia de Itapuã, Vila Velha - ES", "lat": -20.3529, "lng": -40.2896 },
+      { "label": "Jardim Camburi, Vitória", "address": "Jardim Camburi, Vitória - ES", "lat": -20.2583, "lng": -40.2683 },
+      { "label": "Praia do Canto, Vitória", "address": "Praia do Canto, Vitória - ES", "lat": -20.2966, "lng": -40.2932 }
+    ],
+    "presetsDestination": [
+      { "label": "Vitória Airport (VIX)", "address": "Aeroporto de Vitória (VIX), Goiabeiras, Vitória - ES", "lat": -20.2581, "lng": -40.2864 },
+      { "label": "Hospital Santa Rita", "address": "Hospital Santa Rita de Cássia, Maruípe, Vitória - ES", "lat": -20.2974, "lng": -40.3133 },
+      { "label": "Shopping Vitória", "address": "Shopping Vitória, Enseada do Suá, Vitória - ES", "lat": -20.3125, "lng": -40.2879 },
+      { "label": "Domingos Martins", "address": "Centro, Domingos Martins - ES", "lat": -20.3633, "lng": -40.6594 },
+      { "label": "Pedra Azul", "address": "Pedra Azul, Domingos Martins - ES", "lat": -20.3997, "lng": -41.0289 }
+    ],
+    "alerts": {
+      "antecedencia": "To guarantee your booking, we require at least 6 hours' notice. For same-day rides, please message Gil directly.",
+      "madrugada": "For overnight hours between midnight and 6 AM, please message Gil directly.",
+      "tabela_indisponivel": "Rates for weekends and public holidays are confirmed directly with Gil via WhatsApp.",
+      "pernoite": "Overnight trips receive a custom quote directly with Gil.",
+      "mudanca_faixa": "Your schedule spans more than one rate tier. This fare is an estimate and will be confirmed by Gil.",
+      "viagem_longa": "Extended trips over 8 hours require a schedule review for your comfort and safety. Gil will confirm with you.",
+      "noturno": "Includes a 25% surcharge after 10:00 PM",
+      "talkToGil": "Message Gil directly on WhatsApp"
+    },
+    "rules": {
+      "pernoite": "Custom quote for overnight trip",
+      "madrugada": "Early-morning service arranged directly via WhatsApp",
+      "tabela_indisponivel": "Weekend or holiday quote confirmed via WhatsApp",
+      "transporte_agendado": "Scheduled Ride (one-way: driven distance + dispatch fee)",
+      "passeio": "Day Trip (up to 150 km total distance: time + dispatch fee only)",
+      "viagem": "Regional Travel (over 150 km: full mileage + time + dispatch fee)",
+      "compromisso": "Round trip with wait time (mileage + first hour + 30-min blocks + dispatch fee)"
+    },
+    "bands": {
+      "dia_util_baixa": "Weekday, standard hours",
+      "dia_util_alta": "Weekday, peak hours",
+      "especial_baixa": "Weekend or holiday, standard hours",
+      "especial_alta": "Weekend or holiday, peak hours",
+      "nightSuffix": ", After 10:00 PM: +25% surcharge"
+    },
+    "summary": {
+      "title": "Quote ticket",
+      "service": "Service",
+      "origin": "Pickup",
+      "destination": "Destination",
+      "route": "Route",
+      "routePending": "Not set yet",
+      "schedule": "Date & time",
+      "returnLabel": "Return",
+      "oneWayOnly": "One-way only",
+      "overnight": "Another day (overnight)",
+      "distanceLabel": "Distance",
+      "rateTierLabel": "Rate tier",
+      "estimatedTotal": "Estimated fare",
+      "pendingValue": "Enter your route",
+      "continueBtn": "Continue",
+      "expandTicket": "View full summary",
+      "collapseTicket": "Close summary",
+      "disclaimer": "Estimated fare, subject to confirmation."
+    }
+  },
+  "calloutBanner": {
+    "text": "Know where you are going? Check your price now.",
+    "cta": "Get a quote"
+  },
+  "howItWorks": {
+    "eyebrow": "05 · Process",
+    "title": "Booking is simple",
+    "steps": [
+      {
+        "num": "01",
+        "titulo": "Choose your service and time.",
+        "desc": "Use the quote simulator on this page or message us on WhatsApp."
+      },
+      {
+        "num": "02",
+        "titulo": "Get your confirmation on WhatsApp.",
+        "desc": "Gil confirms the pickup time and final fare directly with you."
+      },
+      {
+        "num": "03",
+        "titulo": "Your car arrives on time.",
+        "desc": "At the scheduled hour, the electric SUV is waiting at your door."
+      }
+    ]
+  },
+  "audience": {
+    "eyebrow": "06 · Who we serve",
+    "title": "Built for discerning passengers",
+    "items": [
+      "Older adults and their families",
+      "Passengers with reduced mobility",
+      "Patients after sedated medical exams",
+      "Couples heading to dinners or events",
+      "Corporate teams and executives",
+      "Visitors in Greater Vitória"
+    ]
+  },
+  "vip": {
+    "eyebrow": "Priority list",
+    "title": "Join our VIP WhatsApp group",
+    "text": "Get priority access to open schedule slots, seasonal availability and service updates without clutter.",
+    "cta": "Join the VIP group"
+  },
+  "faq": {
+    "eyebrow": "07 · Details",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "pergunta": "How far in advance do I need to book?",
+        "resposta": "At least 6 hours ahead. Booking the day before is ideal to guarantee your preferred time slot."
+      },
+      {
+        "pergunta": "Is the quoted estimate the final price?",
+        "resposta": "It is very close to the final fare. Gil confirms the exact price on WhatsApp prior to your trip. If the route or duration changes on the day, the fare is adjusted accordingly."
+      },
+      {
+        "pergunta": "Does the driver wait during my appointment?",
+        "resposta": "Yes. In Round Trip with Wait Time and Senior Care Rides, your chauffeur stays at your disposal for the agreed period."
+      },
+      {
+        "pergunta": "Can I book a ride for someone else?",
+        "resposta": "Yes. Many children and grandchildren book for parents and grandparents. Just include the passenger's name and phone number."
+      },
+      {
+        "pergunta": "Do you travel outside Greater Vitória?",
+        "resposta": "Yes, under Day Trips & Travel to destinations like Domingos Martins, Pedra Azul and coastal towns. Overnight trips are quoted individually on WhatsApp."
+      },
+      {
+        "pergunta": "May I bring my own drinks?",
+        "resposta": "Yes. An iced cooler is available on board for passengers."
+      },
+      {
+        "pergunta": "How do I pay?",
+        "resposta": "Payment is arranged upon booking confirmation: Pix, credit or debit card, or cash."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Vila Velha · Vitória · Espírito Santo",
+    "title": "Your next appointment can have a driver.",
+    "text": "Reserve ahead and travel in quiet electric comfort with guaranteed punctuality.",
+    "ctaPrimary": "Get a quote",
+    "ctaSecondary": "Message us on WhatsApp",
+    "buttonSingle": "Book my ride",
+    "disclaimerNote": "Estimated fares, subject to confirmation."
+  },
+  "contact": {
+    "eyebrow": "08 · Direct contact",
+    "title": "Speak with Gil",
+    "subtitle": "Personal service in Vila Velha, Vitória and across Espírito Santo.",
+    "whatsappLabel": "WhatsApp & phone",
+    "emailLabel": "Email",
+    "instagramLabel": "Instagram"
+  },
+  "footer": {
+    "description": "GFS Drive Service. Private chauffeur by appointment in Vila Velha and Vitória, Brazil.",
+    "area": "Serving Vila Velha, Vitória, Serra, Cariacica and trips across Espírito Santo.",
+    "navHeading": "Navigation",
+    "contactHeading": "Contact",
+    "disclaimer": "Prices shown are estimates and subject to confirmation."
+  },
+  "floatingWhatsApp": {
+    "label": "Message Gil on WhatsApp",
+    "simulatePill": "Get a quote",
+    "defaultMessage": "Hi Gil! I found GFS Drive Service on your website and would like to book a ride."
+  },
+  "drawer": {
+    "title": "Fare quote simulator",
+    "close": "Close",
+    "inlineLink": "Go to full simulator section"
+  },
+  "seniorPage": {
+    "backHome": "Back to home",
+    "videoLabel": "Senior Care Rides introduction video",
+    "videoCaption": "See how door-to-door assistance works for errands, clinics and safe return trips home.",
+    "videoPlaceholderText": "Video slot (15 to 30 seconds) showcasing door pickup, grocery run and safe assisted return.",
+    "eyebrow": "Senior Care Rides",
+    "title": "Patience, care and punctuality for those you love.",
+    "text": "We know going to a clinic, bank or grocery store can feel tiring. With GFS Drive Service, you are picked up right at your door, assisted into and out of the car, and never rushed while your chauffeur waits for you to finish.",
+    "benefitsTitle": "How every trip is handled",
+    "benefits": [
+      "Door-to-door pickup and drop-off",
+      "Hands-on help getting in and out of the car",
+      "Patient waiting during appointments or exams",
+      "Ideal after sedated exams when driving is unsafe",
+      "Quiet, smooth brand-new electric vehicle",
+      "Family member notified on WhatsApp at pickup and arrival"
+    ],
+    "trunkBadge": "Room for groceries and mobility aids",
+    "trunkText": "Easy cabin step-in, gentle climate control and an ample trunk for shopping bags, walkers or a folding wheelchair.",
+    "familyTitle": "Live far from your parents? Book for them and stay informed at every step.",
+    "familyText": "You arrange every detail with Gil on WhatsApp, share the passenger's address and receive updates when pickup and drop-off take place.",
+    "familyCta": "Quote a ride for a family member",
+    "callOrWhatsApp": "Call or message on WhatsApp now",
+    "callPhone": "Call by phone: {{phone}}",
+    "simulateButton": "Get a fare estimate",
+    "whatsappMessage": "Hi Gil. I would like to book Senior Care Rides through the GFS Drive Service website."
+  },
+  "qrPage": {
+    "backFullSite": "Explore full website"
+  },
+  "notFound": {
+    "eyebrow": "404 Error",
+    "title": "This page could not be found.",
+    "text": "The address you visited does not exist or has moved. Return to the home page or message Gil directly on WhatsApp.",
+    "backHome": "Back to home",
+    "whatsappCta": "Message Gil on WhatsApp"
+  },
+  "whatsappMessages": {
+    "greeting": "Hi Gil. I would like to request a booking via GFS Drive Service.",
+    "service": "Service",
+    "dateTime": "Date & pickup",
+    "returnTime": "Return",
+    "returnOneWay": "One-way only",
+    "returnOvernight": "Another day (overnight)",
+    "returnToBeAgreed": "To be agreed",
+    "origin": "Pickup",
+    "destination": "Destination",
+    "distance": "Estimated distance",
+    "estimatedValue": "Estimated fare",
+    "overnightPrice": "To be quoted (overnight trip)",
+    "pricePending": "To be quoted",
+    "alertPrefix": "Note",
+    "client": "Name",
+    "phone": "Phone",
+    "passenger": "Passenger",
+    "passengerSelf": "Same as requester",
+    "passengerNotInformed": "Not provided",
+    "passengerNoPhone": "no phone",
+    "notes": "Notes",
+    "notesNone": "None",
+    "fallbackGreeting": "Hi Gil. I would like to request a quote via GFS Drive Service.",
+    "toBeInformed": "To be provided"
+  }
+}

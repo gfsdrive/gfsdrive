@@ -24,6 +24,7 @@ import {
 } from '../components/DottedConnector';
 import { Reveal } from '../components/Reveal';
 import { RollingElectricCar } from '../components/RollingElectricCar';
+import { CarShowroom } from '../components/CarShowroom';
 import { SectionDotNav } from '../components/SectionDotNav';
 import { SimulatorWizard } from '../components/SimulatorWizard';
 
@@ -272,8 +273,8 @@ export const HomePage: React.FC<HomePageProps> = ({ mapsAvailable, onNavigate })
           </div>
 
           {/* Carro de perfil lateral pousado sobre a linha divisória das faixas */}
-          <div className="relative z-10 w-[112%] -ml-[6%] md:w-full md:ml-0 max-w-5xl mx-auto my-2 sm:my-0">
-            <RollingElectricCar mode="hero" heroRef={heroRef} />
+          <div className="relative z-10 w-full max-w-5xl mx-auto my-4 sm:my-6">
+            <CarShowroom />
           </div>
 
           {/* Desktop: Mini-Simulador horizontal em Midnight Black com borda Champagne Gold */}

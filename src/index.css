@@ -1,61 +1,52 @@
 @import "tailwindcss";
 
+/* Holgada Black (titulos) — coloque o arquivo em /public/fonts/Holgada-Black.woff2 */
 @font-face {
   font-family: "Holgada";
-  src: url("/fonts/Holgada-Thin.woff2") format("woff2");
-  font-weight: 100;
+  src: local("Holgada Black"), local("Holgada-Black"), url("/fonts/Holgada-Black.woff2") format("woff2");
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
+/* Nirmala UI (textos) — fonte do Windows; em outros sistemas cai no fallback */
 @font-face {
-  font-family: "Holgada";
-  src: url("/fonts/Holgada-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Holgada";
-  src: url("/fonts/Holgada-Regular.woff2") format("woff2");
+  font-family: "Nirmala UI";
+  src: local("Nirmala UI"), local("NirmalaUI"), url("/fonts/NirmalaUI.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Holgada";
-  src: url("/fonts/Holgada-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Holgada";
-  src: url("/fonts/Holgada-Bold.woff2") format("woff2");
+  font-family: "Nirmala UI";
+  src: local("Nirmala UI Bold"), local("NirmalaUI-Bold"), url("/fonts/NirmalaUI-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 :root {
+  /* Paleta oficial */
   --midnight: #0D0D0D;
-  --steel: #2C3946;
-  --steel-dark: #232E39;
   --titanium: #8B8D91;
   --champagne: #C2A472;
-  --champagne-on-light: #725A31;
-  --ivory: #F4F2EE;
+  --steel: #2C3946;
   --white: #FFFFFF;
-  --text-on-dark: #E6E6E6;
+
+  /* Derivadas da paleta */
+  --steel-dark: #243039;
+  --champagne-on-light: #725A31;
+  --ivory: #FFFFFF;
+  --text-on-dark: #FFFFFF;
   --text-on-light: #0D0D0D;
-  --text-muted-on-light: #3B4249;
-  --border-light: #D5D0C6;
+  --text-muted-on-light: #2C3946;
+  --border-light: #8B8D91;
   --border-dark: rgba(139, 141, 145, 0.28);
 
-  --font-brand: "Holgada", "Outfit", "Urbanist", system-ui, -apple-system, sans-serif;
+  --font-display: "Holgada", "Arial Black", system-ui, sans-serif;
+  --font-body: "Nirmala UI", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-brand: var(--font-body);
   --gfs-font-scale: 1;
 }
 
@@ -68,6 +59,7 @@
   --color-ivory: var(--ivory);
 
   --font-brand: var(--font-brand);
+  --font-display: var(--font-display);
 }
 
 html {
@@ -75,26 +67,32 @@ html {
   scroll-behavior: smooth;
   background-color: var(--midnight);
   color: var(--text-on-dark);
-  font-family: var(--font-brand);
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
 }
 
 body {
   background-color: var(--midnight);
   color: var(--text-on-dark);
-  font-family: var(--font-brand);
+  font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.6;
 }
 
 h1, h2, h3 {
-  font-family: var(--font-brand);
-  font-weight: 500;
+  font-family: var(--font-display);
+  font-weight: 900;
   text-wrap: balance;
 }
 
 .font-brand {
-  font-family: var(--font-brand);
+  font-family: var(--font-body);
+}
+
+/* Carro sempre preto (ilustracao do hero e secao de chegada) */
+img[src*="carro-carroceria"],
+img[src*="carro-completo"] {
+  filter: grayscale(1) brightness(0.32) contrast(1.35);
 }
 
 .tabular-nums {

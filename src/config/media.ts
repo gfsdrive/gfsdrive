@@ -5,12 +5,12 @@ export const MEDIA_ASSETS = {
     fallbackKey: 'media.carroOrlaFallback',
   },
   melhorIdadeEmbarque: {
-    src: '/car/lateral.jpg',
+    src: '/car/interior-porta.jpg',
     altKey: 'media.melhorIdadeAlt',
     fallbackKey: 'media.melhorIdadeFallback',
   },
   interiorBancoTras: {
-    src: '/car/interior.jpg',
+    src: '/car/interior-teto.jpg',
     altKey: 'media.interiorAlt',
     fallbackKey: 'media.interiorFallback',
   },
@@ -20,17 +20,17 @@ export const MEDIA_ASSETS = {
     fallbackKey: 'media.portaMalasFallback',
   },
   estradaPedraAzul: {
-    src: '/car/traseira.jpg',
+    src: '/car/lateral.jpg',
     altKey: 'media.pedraAzulAlt',
     fallbackKey: 'media.pedraAzulFallback',
   },
   executivoCorporativo: {
-    src: '/car/frente.jpg',
+    src: '/car/interior-cabine.jpg',
     altKey: 'media.executivoAlt',
     fallbackKey: 'media.executivoFallback',
   },
   videoMelhorIdade: {
     src: '/video/melhor-idade.mp4',
-    poster: '/car/lateral.jpg',
+    poster: '/car/interior-porta.jpg',
   },
 } as const;

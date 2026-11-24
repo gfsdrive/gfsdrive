@@ -602,14 +602,24 @@ export const HomePage: React.FC<HomePageProps> = ({ mapsAvailable, onNavigate })
           </Reveal>
 
           {/* Horizontal snap carousel no mobile (mostra pedaço do próximo card); 5 colunas no desktop */}
-          <div className="flex lg:grid lg:grid-cols-5 gap-4 overflow-x-auto lg:overflow-visible snap-x snap-mandatory pb-3 lg:pb-0 -mx-4 px-4 lg:mx-0 lg:px-0">
+          <div className="flex lg:grid lg:grid-cols-3 gap-5 lg:gap-7 overflow-x-auto lg:overflow-visible snap-x snap-mandatory pb-3 lg:pb-0 -mx-4 px-4 lg:mx-0 lg:px-0">
             {SERVICOS.map((srv) => {
               const priceSpec = STARTING_PRICES[srv.id];
               return (
                 <article
                   key={srv.id}
-                  className="w-[80vw] sm:w-[46vw] lg:w-auto shrink-0 snap-start bg-[#14191F] border border-[var(--titanium)]/35 hover:border-[var(--champagne)] rounded-[4px] p-5 flex flex-col justify-between gap-5 transition-transform duration-200 hover:-translate-y-1"
+                  className="group w-[82vw] sm:w-[46vw] lg:w-auto shrink-0 snap-start bg-[#14191F] border border-[var(--titanium)]/35 hover:border-[var(--champagne)] rounded-[6px] overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_48px_-20px_rgba(194,164,114,0.35)]"
                 >
+                  <div className="relative aspect-[4/3] overflow-hidden bg-[var(--midnight)]">
+                    <img
+                      src={`/servicos/${srv.id}.jpg`}
+                      alt={t(`services.items.${srv.id}.nome`)}
+                      loading="lazy"
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#14191F] via-transparent to-transparent" />
+                  </div>
+                  <div className="p-5 lg:p-6 flex flex-col justify-between gap-5 flex-1">
                   <div className="space-y-2.5">
                     <span className="text-xs uppercase tracking-[0.15em] text-[var(--champagne)] block">
                       {t('services.fromPrice')}
@@ -657,6 +667,7 @@ export const HomePage: React.FC<HomePageProps> = ({ mapsAvailable, onNavigate })
                       <span>{t('services.ctaSimulate')}</span>
                       <ArrowRight className="w-4 h-4 shrink-0" strokeWidth={1.5} aria-hidden="true" />
                     </button>
+                  </div>
                   </div>
                 </article>
               );
